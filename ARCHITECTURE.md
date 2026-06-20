@@ -1,3 +1,3 @@
-1. my architecture are advanced application architucture which are for complex app solutions, where you can easly reuse much common components in much comlex components (for example ui-kit components in fragments then reuse everything in pages). part of css also for advanced solutions SASS+BEM
-2. state manager in my case used for light/dark mode
-3. in much complex production application may be redux-toolkit is much preferable
+1. The architecture follows an advanced application structure designed for complex solutions. It promotes reusability by organizing components into multiple layers, allowing common components to be easily reused within more complex ones. For example, UI Kit components can be composed into fragments, which are then reused across different pages. The styling approach also targets scalability and maintainability through the use of **SASS** and the **BEM** methodology.
+2. In this project, the state manager is used primarily for handling the light/dark theme mode, making a lightweight solution sufficient for the current requirements.
+3. For larger and more complex production applications, **Redux Toolkit** may be a more suitable choice due to its advanced state management capabilities, ecosystem, and scalability.
