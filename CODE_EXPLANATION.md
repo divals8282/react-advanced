@@ -1,6 +1,4 @@
-1. fetching working with fetch method and tanstack query which are providing cashing solution for network
-2. zustand very common, so for basic app like this it looks absolutely good solution
-3. it takes search text from state and just filtering products with .filter method, also it not case sensitive
-4. my be in some places we can write useMemo and memo because part of property values are objects, for advanced networking axios will be better
-
-
+1. Data fetching is implemented using the native `fetch` API together with **TanStack Query**, which provides efficient caching and network state management.
+2. **Zustand** is a very common and lightweight state management solution. For a basic application like this, it looks like a perfectly suitable choice.
+3. The search functionality takes the search text from the state and filters products using the `.filter()` method. The implementation is case-insensitive, which improves the user experience.
+4. In some places, `useMemo` and `React.memo` could be applied to optimize rendering, especially since some props contain object values. Additionally, for more advanced networking requirements, **Axios** might be a better choice than the native `fetch` API.
